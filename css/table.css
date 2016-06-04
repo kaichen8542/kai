@@ -1,0 +1,22 @@
+@import url(reset.css);
+td,
+th {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: times Arial monospace;
+    text-align: center;
+    border: 5px solid #000;
+    padding: 20px;
+}
+
+table th {
+    background-color: yellow;
+}
+
+tbody tr:nth-child(1) td {
+    background-color: #FFB411;
+}
+
+tbody tr:last-child td {
+    background-color: #E897F7;
+}
